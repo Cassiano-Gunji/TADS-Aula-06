@@ -34,7 +34,7 @@ namespace Aula_06.dal
                     conn = null;
                     // Algo deu errado. Precisamos saber o que foi. Então vamos exportar a mensagem de exceção para o console
                     TextWriter erro = Console.Error;
-                    erro.WriteLine("***************Depuração*******************\n", sqle.Message);
+                    erro.WriteLine("***************Depuração*******************\n" + sqle.Message);
                 }
             }
             return conn;
