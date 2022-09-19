@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Aula_06.dal
 {
-    internal class Conexao
+    public class Conexao
     {
         // Vamos nos conectar ao SQL Server e à base de dados
         private static string connString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\banco.mdf;Integrated Security=True";

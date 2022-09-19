@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mecanismo", "Mecanismo\Mecanismo.csproj", "{22A45846-01BA-426C-9E51-27652254FEB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula 06 Web", "Aula 06 Web\Aula 06 Web.csproj", "{1A43EF0C-D685-4C89-BEB1-B5BAD0E9F793}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,14 @@ Global
 		{83A5CA51-BDBE-455D-8B35-3B4F5114C229}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83A5CA51-BDBE-455D-8B35-3B4F5114C229}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83A5CA51-BDBE-455D-8B35-3B4F5114C229}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22A45846-01BA-426C-9E51-27652254FEB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22A45846-01BA-426C-9E51-27652254FEB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22A45846-01BA-426C-9E51-27652254FEB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22A45846-01BA-426C-9E51-27652254FEB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A43EF0C-D685-4C89-BEB1-B5BAD0E9F793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A43EF0C-D685-4C89-BEB1-B5BAD0E9F793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A43EF0C-D685-4C89-BEB1-B5BAD0E9F793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A43EF0C-D685-4C89-BEB1-B5BAD0E9F793}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

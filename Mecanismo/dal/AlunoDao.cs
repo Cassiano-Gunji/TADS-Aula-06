@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Aula_06.dal
 {
-    internal class AlunoDao
+    public class AlunoDao
     {
         public static bool insiraAluno(Aluno aluno)
         {

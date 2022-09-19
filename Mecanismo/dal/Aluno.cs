@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Aula_06.dal
 {
-    internal class Aluno
+    public class Aluno
     {
         // Atributos
         private int id;
