@@ -17,7 +17,7 @@ namespace Aula_06_Web
 
         protected void btnExibir_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/frmAlunosCadastrados.aspx");
+            Response.Redirect("frmAlunosCadastrados.aspx");
         }
 
         protected void btnInserir_Click(object sender, EventArgs e)

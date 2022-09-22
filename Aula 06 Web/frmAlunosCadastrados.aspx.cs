@@ -26,7 +26,7 @@ namespace Aula_06_Web
 
         protected void btnVoltar_Click(object sender, EventArgs e)
         {
-            Response.Redirect("~/default.aspx");
+            Response.Redirect("default.aspx");
         }
 
         protected void btnConsultar_Click(object sender, EventArgs e)
