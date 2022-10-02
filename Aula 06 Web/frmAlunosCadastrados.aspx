@@ -9,6 +9,8 @@
 <body>
     <form id="form1" runat="server">
         <div><h1>Alunos Cadastrados</h1>
+            <p>Usuário: <asp:Label ID="lblLogin" runat="server" Text="Label"></asp:Label>
+                , permissão: <asp:Label ID="lblPermissao" runat="server" Text="Label"></asp:Label></p>
             <table style="width:100%;">
                 <tr>
                     <td>Id:<br />

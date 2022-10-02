@@ -10,6 +10,8 @@
     <form id="form1" runat="server">
         <div>
             <h1>Cadastro de Alunos</h1>
+            <p>Usuário: <asp:Label ID="lblLogin" runat="server" Text="Label"></asp:Label>
+                , permissão: <asp:Label ID="lblPermissao" runat="server" Text="Label"></asp:Label></p>
             <p>Id:
                 <asp:TextBox ID="txtId" runat="server"></asp:TextBox>
             </p>

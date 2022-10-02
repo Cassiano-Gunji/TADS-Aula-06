@@ -59,6 +59,8 @@
     <Compile Include="dal\Aluno.cs" />
     <Compile Include="dal\AlunoDao.cs" />
     <Compile Include="dal\Conexao.cs" />
+    <Compile Include="dal\Usuario.cs" />
+    <Compile Include="dal\UsuarioDao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

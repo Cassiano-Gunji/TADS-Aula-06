@@ -12,15 +12,25 @@ namespace Aula_06_Web
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (!IsPostBack)
+            // Verifica se o login foi feito nesta sessão
+            if (Session["permissao"] == null)
             {
-                List<Aluno> alunos = AlunoDao.consulteAlunos();
-                lbxDados.Items.Clear();
-
-                foreach (Aluno aluno in alunos)
+                Response.Redirect("login.aspx");
+            }
+            else
+            {
+                if (!IsPostBack)
                 {
-                    lbxDados.Items.Add(aluno.Id.ToString());
-                } 
+                    List<Aluno> alunos = AlunoDao.consulteAlunos();
+                    lbxDados.Items.Clear();
+
+                    foreach (Aluno aluno in alunos)
+                    {
+                        lbxDados.Items.Add(aluno.Id.ToString());
+                    }
+                    lblLogin.Text = Session["login"].ToString();
+                    lblPermissao.Text = Session["permissao"].ToString();
+                }
             }
         }
 

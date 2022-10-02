@@ -12,7 +12,16 @@ namespace Aula_06_Web
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            // Verifica se o login foi feito nesta sessão
+            if (Session["permissao"] == null)
+            {
+                Response.Redirect("login.aspx");
+            }
+            else
+            {
+                lblLogin.Text = Session["login"].ToString();
+                lblPermissao.Text = Session["permissao"].ToString();
+            }
         }
 
         protected void btnExibir_Click(object sender, EventArgs e)
