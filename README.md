@@ -4,3 +4,4 @@ Este projeto faz parte da disciplina Tópicos Especiais de Desenvolvimento de Si
 
 ## Exemplo
 Este é um commit de um novo branch.
+E esta é uma mudança feita por outro usuário.
