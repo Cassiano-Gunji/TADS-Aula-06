@@ -12,7 +12,7 @@
             <table style="width:100%;">
                 <tr>
                     <td>Id:<br />
-                        <asp:ListBox ID="lbxDados" runat="server"></asp:ListBox>
+                        <asp:ListBox ID="lbxDados" runat="server" OnSelectedIndexChanged="lbxDados_SelectedIndexChanged"></asp:ListBox>
                         <br />
                         <asp:Button ID="btnConsultar" runat="server" Text="Consultar" OnClick="btnConsultar_Click" />
                     </td>

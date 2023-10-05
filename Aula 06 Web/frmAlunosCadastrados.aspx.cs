@@ -40,5 +40,10 @@ namespace Aula_06_Web
             }
 
         }
+
+        protected void lbxDados_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            btnConsultar_Click(sender, e);
+        }
     }
 }
